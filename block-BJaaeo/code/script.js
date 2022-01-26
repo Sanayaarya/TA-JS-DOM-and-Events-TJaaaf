@@ -1,25 +1,23 @@
-let screen = document.getElementById('screen');
-buttons = document.querySelectorAll('button')
-let screenValue = '';  
-for(item of buttons){
-  item.addEventListener('click',(e)=>{
-   buttonText = e.target.innerText;
-   console.log('Button text is', buttonText);
-   if(buttonText == 'X'){
-      buttonText = '*';
-      screen.value = buttonText;
-      screen.value = screenValue;
-  }
-    else if (buttonText == 'C'){
-     screen.value = "";
-    screen.value = "";
-}  
-    else if (buttonText == '='){
-    screen.value = eval(screenValue);
+let input = document.querySelector("h2");
+let buttons = document.querySelectorAll(".btn");
+
+let initialValue = 0;
+
+function operations(event) {
+    if(event.target.classList.contains('btn-equal')){
+        input.innerText = eval(input.innerText);
+        return input.innerText;
+    } else if(event.target.classList.contains('clear-btn')){
+        input.innerText = initialValue;
+        return input.innerText;
+    } else if(input.innerText == initialValue){
+        input.innerHTML = event.target.innerText;
+        return input.innerHTML;
+    } else{
+        input.innerText += event.target.innerText;
+    }
 }
-    else {
-    screenValue += buttonText;
-     screen.value = screenValue;
-}
+
+buttons.forEach((ele) => {
+    ele.addEventListener('click', operations);
 })
-}
