@@ -44,4 +44,4 @@ function createUI(){
   term.innerText = userInfo.terms;
   box.append(name,email,movie,color,rate,genre,term);
   root.append(box)
-}
+};
