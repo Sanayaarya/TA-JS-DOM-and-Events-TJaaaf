@@ -12,7 +12,7 @@ function handleSubmit(event){
 
  function doesContainANumber(str){
    return str.split('').some(e=>Number(e))
- };
+ }
 
  if(usernameElm.value === ""){
    usernameError = "can't be empty!";
