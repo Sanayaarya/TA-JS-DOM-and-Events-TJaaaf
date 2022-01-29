@@ -20,7 +20,7 @@ let dataSet = [
 let userSelected ={}, computerSelected = {};
 
 function getWinner(user, computer){
-    // tie 
+    
 
     if(user.name === computer.name) {
         result.innerText = "It's a tie";
@@ -80,4 +80,4 @@ function creatingComputerLayout(){
         computerRoot.append(li);
     });
 }
-creatingComputerLayout();
+creatingComputerLayout()
