@@ -70,7 +70,7 @@ function creatingComputerLayout(){
     dataSet.forEach((icon) => {
         let li = document.createElement('li');
         let i = document.createElement('i');
-        i.className = `fa fa-hand-${icon.name}-o`
+        i.className = `fa fa-hand-${icon.name}-o`;
 
         if(computerSelected.name === icon.name){
             li.classList.add = "selected"
