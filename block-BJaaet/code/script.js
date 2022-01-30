@@ -27,4 +27,4 @@ function createUI(){
       movieName.innerText = movieInfo.movie;
      ul.append(checkBox,movieName ,close );
      movieNames.append(ul);
-  }
+  };
