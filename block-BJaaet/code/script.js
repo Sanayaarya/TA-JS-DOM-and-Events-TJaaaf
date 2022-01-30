@@ -1,5 +1,5 @@
 let inputElement = document.querySelector('input');
-let movieNames = document.querySelector('.movieName')
+let movieNames = document.querySelector('.movieName');
 
 let movieInfo = {};
 
