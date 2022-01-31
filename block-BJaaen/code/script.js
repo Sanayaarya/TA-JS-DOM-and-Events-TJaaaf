@@ -45,7 +45,7 @@ function creatingUserLayout(){
 
         if(userSelected.name === icon.name){
             li.classList.add = "selected";
-        }
+        };
 
         li.addEventListener('click', () => {
             userSelected = icon;
@@ -74,7 +74,7 @@ function creatingComputerLayout(){
 
         if(computerSelected.name === icon.name){
             li.classList.add = "selected"
-        }
+        };
 
         li.append(i);
         computerRoot.append(li);
