@@ -80,4 +80,4 @@ function creatingComputerLayout(){
         computerRoot.append(li);
     });
 }
-creatingComputerLayout()
+creatingComputerLayout();
