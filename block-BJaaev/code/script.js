@@ -26,7 +26,7 @@ function handleDelete(event){
   let id = event.target.dataset.id;
   allTodos.splice(id,1);
   createUI(allTodos,root);
-}
+};
 
 function createUI(data,rootElm){
   rootElm.innerHTLM = "";
