@@ -46,7 +46,7 @@ function createUI(data,rootElm){
      li.append(input , p , span);
      rootElm.append(li);
   })
-}
+};
 
 createUI(allTodos,root);
 
