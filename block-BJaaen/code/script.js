@@ -30,7 +30,7 @@ function getWinner(user, computer){
         result.innerText = "Computer wins 😏";
     }
 
-}
+};
 
 function getRandomNumber(max = 3){
     return Math.floor(Math.random() * max);
