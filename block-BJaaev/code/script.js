@@ -14,7 +14,7 @@ function handleInput(event){
     event.target.value = "";
     createUI(allTodos,root);
   }
-}
+};
 
 function handleToogle(event){
   let id = event.target.dataset.id;
