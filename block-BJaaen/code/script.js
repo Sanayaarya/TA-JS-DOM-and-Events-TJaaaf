@@ -45,7 +45,7 @@ function creatingUserLayout(){
 
         if(userSelected.name === icon.name){
             li.classList.add = "selected";
-        }
+        };
 
         li.addEventListener('click', () => {
             userSelected = icon;
