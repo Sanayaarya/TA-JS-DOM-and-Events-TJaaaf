@@ -79,5 +79,5 @@ function creatingComputerLayout(){
         li.append(i);
         computerRoot.append(li);
     });
-}
-creatingComputerLayout()
+};
+creatingComputerLayout();
