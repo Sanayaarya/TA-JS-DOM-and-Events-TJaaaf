@@ -20,7 +20,7 @@ function handleToogle(event){
   let id = event.target.dataset.id;
   allTodos[id].isDone = !allTodos[id].isDone
     createUI(allTodos,root)
-}
+};
 
 function handleDelete(event){
   let id = event.target.dataset.id;
