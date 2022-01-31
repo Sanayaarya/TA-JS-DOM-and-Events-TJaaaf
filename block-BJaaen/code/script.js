@@ -74,7 +74,7 @@ function creatingComputerLayout(){
 
         if(computerSelected.name === icon.name){
             li.classList.add = "selected"
-        }
+        };
 
         li.append(i);
         computerRoot.append(li);
