@@ -13,7 +13,7 @@ function handleInput(event){
     allTodos.push(todo);
     event.target.value = "";
     createUI(allTodos,root);
-  }
+  };
 };
 
 function handleToogle(event){
