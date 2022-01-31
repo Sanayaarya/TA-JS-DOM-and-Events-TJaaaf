@@ -34,7 +34,7 @@ function getWinner(user, computer){
 
 function getRandomNumber(max = 3){
     return Math.floor(Math.random() * max);
-}
+};
 
 function creatingUserLayout(){
     userRoot.innerHTML = "";
