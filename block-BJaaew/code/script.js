@@ -111,4 +111,4 @@ combinedBtn.addEventListener("click",(event)=>
     if(event.target.dataset.name==="Dothrakis"){
         createUI(10);
     };
-});
+})
