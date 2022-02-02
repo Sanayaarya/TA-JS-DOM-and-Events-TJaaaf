@@ -1,12 +1,31 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>TODO Application</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <h1>
+      todos
+    </h1>
+    <div class="container">
+      <form>
+        <input class="form-control" id="text" type="text" placeholder="Whats needs to be done?" >
+      </form>
+      
+      <ul class="ul">
+
+      </ul>
+      <div class="button">
+          <button data-id="All">All</button>
+          <button data-id="Active">Active</button>
+          <button data-id="Compeleted">Completed</button>
+          <button data-id="clear">Clear</button>
+      </div>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
