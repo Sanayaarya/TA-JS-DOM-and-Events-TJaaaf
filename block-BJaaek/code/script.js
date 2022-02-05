@@ -16,4 +16,4 @@ let action2 = ()=>{
   b2.style.backgroundColor = colorArr[i];
 }
 
-b2.addEventListener('mousemove', action2);
+b2.addEventListener('mousemove', action2)
