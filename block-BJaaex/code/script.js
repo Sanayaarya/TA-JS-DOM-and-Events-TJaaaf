@@ -135,4 +135,4 @@ if (count < 2) {
   previousTarget = clicked;
 }
 
-});
+})
