@@ -30,4 +30,4 @@ function handleSubmit(event){
    usernameElm.nextSibling.innerText = usernameError
 }
 
-form.addEventListener("submit",handleSubmit);
+form.addEventListener("submit",handleSubmit)
