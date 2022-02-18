@@ -50,4 +50,4 @@ function createUI(data,rootElm){
 
 createUI(allTodos,root);
 
-inputText.addEventListener("keyup" , handleInput)
+inputText.addEventListener("keyup" , handleInput);
