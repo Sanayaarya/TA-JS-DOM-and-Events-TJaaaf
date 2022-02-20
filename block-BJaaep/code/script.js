@@ -1,4 +1,4 @@
-let box = document.querySelectorAll(".boxes-1 li");
+let box = document.querySelectorAll(".box");
 let secondBox = document.querySelector(".second")
 
 box.forEach((e,i)=>{
@@ -11,26 +11,6 @@ box.forEach((e,i)=>{
  });
 });
 
-// let box2 = document.querySelectorAll(".boxes-2 li")
-
-// box2.forEach((e,i)=>{
-//   i++;
-//   let c =0;
-//   for (let i = 1 ; i < 12 ; i++ ){
-//   e.setAttribute("data-count",c++);
-//   }
-//   e.addEventListener('click',(event)=>{
-//     e.innerText = i;
-//     console.log(event.target)
-//     if( e.innerText === event.target.dataset.count ){
-//       setTimeout(() => {
-//         e.innerText = "";
-//       }, 3000)
-//     }
-//   })
-// })
-
-// console.log("script is working");
 
 
 secondBox.addEventListener("click",(event)=>{
@@ -40,4 +20,4 @@ secondBox.addEventListener("click",(event)=>{
   setTimeout(() => {
     event.target.innerText = "";
   }, 3000);
-})
+});
