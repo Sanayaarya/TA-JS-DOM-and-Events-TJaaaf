@@ -20,4 +20,4 @@ secondBox.addEventListener("click",(event)=>{
   setTimeout(() => {
     event.target.innerText = "";
   }, 3000);
-})
+});
