@@ -14,7 +14,7 @@ function disco(){
 function randomNumber(max){
   var num = Math.floor(Math.random() * max);
   return num;
-}
+};
 
 
 for (let i = 0 ; i < 513; i++){
