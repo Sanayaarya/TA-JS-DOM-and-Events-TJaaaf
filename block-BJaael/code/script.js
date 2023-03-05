@@ -10,7 +10,7 @@ function disco(){
   var z = Math.floor(Math.random() * 256);
   var bgColor = "rgb(" + x + "," + y + "," + z + ")";
   return bgColor;
-};
+}
 function randomNumber(max){
   var num = Math.floor(Math.random() * max);
   return num;
